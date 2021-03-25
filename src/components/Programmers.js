@@ -39,6 +39,7 @@ export default function Programmers() {
       return programmers[id - 1].name
     }
 
+
     // Leave this for last!
     // This is NOT an event handler but a helper function. See its usage inside the JSX.
     // It's going to utilize both slices of state to return the _name_ of the featured dev.
